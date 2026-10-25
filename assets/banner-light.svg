@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zille Ghufran Syed, software engineer">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#d9d4c7"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="m"><rect x="640" y="0" width="560" height="300" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="18"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="18" fill="#fbfaf7" stroke="#e6e2d8" stroke-width="2"/>
+  <g clip-path="url(#card)">
+    <rect x="640" y="0" width="560" height="300" fill="url(#dots)" mask="url(#m)"/>
+    <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#m)">
+      <path d="M770 122 H866 L914 74 H1082" stroke="#c9c3b4"/>
+      <path d="M818 266 H938 L986 218 H1106" stroke="#c9c3b4"/>
+      <path d="M746 218 H842 L890 170 H1010 L1058 122 H1130" stroke="#c2410c"/>
+    </g>
+    <circle cx="1130" cy="122" r="7" fill="#fbfaf7"/><circle cx="1130" cy="122" r="4.5" fill="#c2410c" stroke="#c2410c" stroke-width="2"/>
+    <circle cx="1082" cy="74" r="7" fill="#fbfaf7"/><circle cx="1082" cy="74" r="4.5" fill="#fbfaf7" stroke="#c2410c" stroke-width="2"/>
+    <circle cx="1106" cy="266" r="7" fill="#fbfaf7"/><circle cx="1106" cy="266" r="4.5" fill="#fbfaf7" stroke="#c2410c" stroke-width="2"/>
+  </g>
+  <rect x="64" y="72" width="36" height="4" rx="2" fill="#c2410c"/>
+  <text x="62" y="148" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.2" fill="#15171c">Zille Ghufran Syed</text>
+  <text x="64" y="194" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#5a606c">Software engineering student · Istanbul</text>
+  <text x="64" y="232" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#c2410c">Web and mobile apps  ·  Embedded systems</text>
+</svg>
